@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "App that...",
+      "technologies": ["HTML", "CSS", "JS"],
+      "live_link": "https://ranquotegen.netlify.com/",
+      "github_link": "https://github.com/micahthobbs/random-quote-generator",
+      "image_urls": ["/images/project-1-main", "/images/project-1-add"]
+    }
+  ]
+}
