@@ -7,7 +7,10 @@
       "technologies": ["HTML", "CSS", "JS", "Git"],
       "live_link": "https://ranquotegen.netlify.com/",
       "github_link": "https://github.com/micahthobbs/random-quote-generator",
-      "image_urls": ["/images/project-1-main.png", "/images/project-1-add.png"]
+      "image_urls": [
+        "/static/images/project-1-main.png",
+        "/static/images/project-1-add.png"
+      ]
     }
   ]
 }
