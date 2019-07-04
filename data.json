@@ -2,11 +2,65 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Random Quote Generator",
-      "description": "App that...",
-      "technologies": ["HTML", "CSS", "JS", "Git"],
+      "project_name": "A Random Quote Generator",
+      "description": "This app  displays random famous quotes each time a button is clicked.",
+      "technologies": ["HTML/CSS", "JavaScript", "JS", "Git"],
       "live_link": "https://ranquotegen.netlify.com/",
       "github_link": "https://github.com/micahthobbs/random-quote-generator",
+      "image_urls": [
+        "/static/images/project-1-main.png",
+        "/static/images/project-1-add.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "This project uses 'pagination' to enhance the usability of a web page. Starting with a page that contains a list of 54 student names, photos and email addresses. I use JavaScript to display 10 names at a time, and add a navigation system - a series of links at the bottom of the page - to let users click through the other student entries, 10 at a time. The pagination solution works with a list of any number of students, not just with the supplied list of 54 students. The solution is flexible enough to respond to lists of different lengths.",
+      "technologies": ["JavaScript", "HTML/CSS", "Git"],
+      "live_link": "https://list-pagination-filter.netlify.com/",
+      "github_link": "https://github.com/micahthobbs/list-pagination-and-filtering",
+      "image_urls": [
+        "/static/images/project-1-main.png",
+        "/static/images/project-1-add.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "This project uses jQuery to enhance an interactive registration form for a fictional conference called FullStack Conf. Using the supplied HTML and CSS files, I add my own jQeury to make the form more user-friendly by adding customized and conditional behavior and interactivity validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+      "technologies": ["jQuery", "HTML/CSS", "Git"],
+      "live_link": "https://github.com/micahthobbs/interactive-form",
+      "github_link": "https://interactiveform.netlify.com/",
+      "image_urls": [
+        "/static/images/project-1-main.png",
+        "/static/images/project-1-add.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "A browser-based, word guessing game: 'Phrase Hunter'. Using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the gameboard displays the chosen letters on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). If the player completes the phrase before they run out of guesses, a winning screen appears. If the player guesses incorrectly five times, a losing screen appears. A player can guess a letter only once. After they’ve guessed a letter,that letter is disabled on the onscreen keyboard.",
+      "technologies": [
+        "Object Oriented Programming/JavaScript",
+        "Callback Functions",
+        "Array Iteration",
+        "HTML/CSS",
+        "Git"
+      ],
+      "live_link": "https://oopgameshowapp.netlify.com/",
+      "github_link": "https://github.com/micahthobbs/oop-game-show-app",
+      "image_urls": [
+        "/static/images/project-1-main.png",
+        "/static/images/project-1-add.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests ",
+      "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They needed a smart way for employees to share contact information with each other. The app requests a JSON object from the API and parses the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+      "technologies": ["JavaScript", "Terminal", "Git", "HTTP", "Fetch API"],
+      "live_link": "https://publicapirequest.netlify.com/",
+      "github_link": "https://github.com/micahthobbs/public_api_request",
       "image_urls": [
         "/static/images/project-1-main.png",
         "/static/images/project-1-add.png"
