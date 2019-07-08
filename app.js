@@ -28,4 +28,16 @@ app.get(`/project/:id`, (req, res) => {
   });
 });
 
+app.use((req, res, next) => {
+  const err = new Error("Sorry that pages doesn't exist");
+  err.status = 404;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
+});
+
 app.listen(3000);
