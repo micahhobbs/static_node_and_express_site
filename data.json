@@ -3,13 +3,15 @@
     {
       "id": 0,
       "project_name": "A Random Quote Generator",
-      "description": "This app  displays random famous quotes each time a button is clicked.",
+      "description": "This app  displays random famous quotes each time a button is clicked or set time passes",
       "technologies": ["HTML/CSS", "JavaScript", "JS", "Git"],
       "live_link": "https://ranquotegen.netlify.com/",
       "github_link": "https://github.com/micahthobbs/random-quote-generator",
       "image_urls": [
         "/static/images/project-1-main.png",
-        "/static/images/project-1-add.png"
+        "/static/images/project-1-add-1.png",
+        "/static/images/project-1-add-2.png",
+        "/static/images/project-1-add-3.png"
       ]
     },
     {
@@ -20,20 +22,23 @@
       "live_link": "https://list-pagination-filter.netlify.com/",
       "github_link": "https://github.com/micahthobbs/list-pagination-and-filtering",
       "image_urls": [
-        "/static/images/project-1-main.png",
-        "/static/images/project-1-add.png"
+        "/static/images/project-2-main.png",
+        "/static/images/project-2-add-1.png",
+        "/static/images/project-2-add-2.png"
       ]
     },
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "This project uses jQuery to enhance an interactive registration form for a fictional conference called FullStack Conf. Using the supplied HTML and CSS files, I add my own jQeury to make the form more user-friendly by adding customized and conditional behavior and interactivity validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+      "description": "This project uses jQuery to enhance an interactive registration form for a fictional conference called FullStack Conf. Using the supplied HTML and CSS files, I add my own jQuery to make the form more user-friendly by adding customized and conditional behavior and interactivity validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
       "technologies": ["jQuery", "HTML/CSS", "Git"],
-      "live_link": "https://github.com/micahthobbs/interactive-form",
-      "github_link": "https://interactiveform.netlify.com/",
+      "live_link": "https://interactiveform.netlify.com/",
+      "github_link": "https://github.com/micahthobbs/interactive-form",
       "image_urls": [
-        "/static/images/project-1-main.png",
-        "/static/images/project-1-add.png"
+        "/static/images/project-3-main.png",
+        "/static/images/project-3-add-1.png",
+        "/static/images/project-3-add-2.png",
+        "/static/images/project-3-add-3.png"
       ]
     },
     {
@@ -50,8 +55,10 @@
       "live_link": "https://oopgameshowapp.netlify.com/",
       "github_link": "https://github.com/micahthobbs/oop-game-show-app",
       "image_urls": [
-        "/static/images/project-1-main.png",
-        "/static/images/project-1-add.png"
+        "/static/images/project-4-main.png",
+        "/static/images/project-4-add-1.png",
+        "/static/images/project-4-add-2.png",
+        "/static/images/project-4-add-3.png"
       ]
     },
     {
@@ -62,8 +69,9 @@
       "live_link": "https://publicapirequest.netlify.com/",
       "github_link": "https://github.com/micahthobbs/public_api_request",
       "image_urls": [
-        "/static/images/project-1-main.png",
-        "/static/images/project-1-add.png"
+        "/static/images/project-5-main.png",
+        "/static/images/project-5-add-1.png",
+        "/static/images/project-5-add-2.png"
       ]
     }
   ]
